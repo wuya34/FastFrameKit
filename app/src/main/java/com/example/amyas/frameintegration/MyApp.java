@@ -15,7 +15,7 @@ import io.objectbox.BoxStore;
  */
 
 public class MyApp extends Application {
-    public static BoxStore mBoxStore;
+    private static BoxStore mBoxStore;
     @Override
     public void onCreate() {
         super.onCreate();

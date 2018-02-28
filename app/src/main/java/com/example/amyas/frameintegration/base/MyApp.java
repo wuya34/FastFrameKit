@@ -1,13 +1,16 @@
-package com.example.amyas.frameintegration;
+package com.example.amyas.frameintegration.base;
 
 import android.app.Application;
 
+import com.example.amyas.frameintegration.BuildConfig;
+import com.example.amyas.frameintegration.db.MyObjectBox;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.FormatStrategy;
 import com.orhanobut.logger.PrettyFormatStrategy;
 import com.squareup.leakcanary.LeakCanary;
 
 import io.objectbox.BoxStore;
+
 
 /**
  * author: Amyas

@@ -1,4 +1,4 @@
-package com.example.amyas.frameintegration;
+package com.example.amyas.frameintegration.db;
 
 import io.objectbox.annotation.Entity;
 import io.objectbox.annotation.Id;

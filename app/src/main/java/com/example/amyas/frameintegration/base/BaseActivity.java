@@ -1,4 +1,4 @@
-package com.example.amyas.frameintegration;
+package com.example.amyas.frameintegration.base;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;

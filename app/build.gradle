@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
 }
 
 dependencies {
@@ -26,6 +30,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     compile 'com.orhanobut:logger:2.1.1'
     compile "com.android.support:design:27.0.2"
+    compile "com.google.guava:guava:22.0"
     implementation 'com.github.bumptech.glide:glide:4.4.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
